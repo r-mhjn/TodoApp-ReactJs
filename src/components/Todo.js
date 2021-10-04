@@ -20,6 +20,7 @@ export default class TODO extends React.Component {
 
   setTodo = event => {
     console.log(this.state.todoText);
+    console.log("click");
     this.setState({ todoText: event.target.value });
   };
 
